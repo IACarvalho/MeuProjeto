@@ -1,0 +1,32 @@
+Comando github
+#inicializa o repositório
+git init
+#mostra o status do projeto
+git status
+#adicionar arquivo/repositório ao projeto
+git add nomedo_arquivo nome_repositorio
+#adicionar todos os arquivos com uma mesma extenão
+git add '*txt'
+#adicionar todos os arquivo e diretorios ao projeto
+git add -A
+#adiciona comentário a modificação
+git commit -m "comentário"
+#Para ver todos os commits até o momento
+git log
+#para adicionar repositórios remotos
+git remote add origin https://github.com/IACarvalho/MeuProjeto.git
+#enviar arquivos/diretorios para o repositório remoto
+#O primeiro push de um repositório deve conter o nome od repositório e o branch
+git push -u origin master
+#os demais pushes não precisam dessa informação
+git push
+#Atualizar repositório local de acordo com repositório remoto
+#atualizar os arquicos no branch atual
+git pull
+#semrpe que alterar um arquivo tem que usar o git add e git commit
+#buscar as alterações, mas não aplica-las no branch atual
+git fecth
+#clonar um repositório remoto já existente
+git clone git@github.com:leocomelli/curso-git.git
+#commit e add em um mesmo comando
+git commit -a -m "Mudei o desenvolvimento"
