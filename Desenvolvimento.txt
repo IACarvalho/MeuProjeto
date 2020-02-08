@@ -1,4 +1,7 @@
 Comando github
+#Configurar o -mail e nome de usuário
+#git config --global user.email "you@example.com"
+#git config --global user.name "Your Name"
 #inicializa o repositório
 git init
 #mostra o status do projeto
